@@ -1,0 +1,389 @@
+HTML WINDOW - (Index.html) - report and informations code. - DIGITAL CLOCK by Natan Cunha's 2023
+
+
+FUNCTION 1 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+BR - Este é o código HTML para definir uma página da web que será exibida em um navegador.
+
+A primeira linha do código define o tipo de documento HTML como "DOCTYPE html".
+
+Em seguida, a tag <html> é usada para indicar o início do código HTML, seguida pelos atributos "lang" e "en" para indicar que a linguagem da página é o inglês.
+
+A seção <head> contém metadados, como a codificação de caracteres (charset), o modo de compatibilidade do navegador (X-UA-Compatible), e o tamanho da visualização (viewport).
+
+O atributo "charset" especifica a codificação de caracteres utilizada na página, permitindo que os navegadores interpretem corretamente os caracteres especiais. O atributo "http-equiv" permite que o servidor web indique como o navegador deve exibir a página. O atributo "viewport" permite que a largura da visualização seja definida corretamente, garantindo que a página seja exibida corretamente em dispositivos móveis e outros dispositivos com tamanhos de tela diferentes.
+
+O elemento <meta> é usado para fornecer informações adicionais sobre a página para os mecanismos de pesquisa e outras ferramentas que analisam a página.
+
+No final do <head>, é possível adicionar links para folhas de estilo CSS, scripts JavaScript e outras dependências para a página.
+
+A seção <body> contém o conteúdo principal da página, como texto, imagens e elementos interativos.
+
+
+US - This is HTML code to define a webpage that will be displayed in a browser.
+
+The first line of code sets the HTML document type to "DOCTYPE html".
+
+Next, the <html> tag is used to indicate the beginning of the HTML code, followed by the "lang" and "en" attributes to indicate that the language of the page is English.
+
+The <head> section contains metadata such as character encoding (charset), browser compatibility mode (X-UA-Compatible), and view size (viewport).
+
+The "charset" attribute specifies the character encoding used on the page, allowing browsers to correctly interpret special characters. The "http-equiv" attribute allows the web server to indicate how the browser should display the page. The "viewport" attribute allows the width of the view to be set correctly, ensuring that the page displays correctly on mobile devices and other devices with different screen sizes.
+
+The <meta> element is used to provide additional information about the page to search engines and other tools that analyze the page.
+
+At the end of the <head>, you can add links to CSS stylesheets, JavaScript scripts, and other dependencies for the page.
+
+The <body> section contains the main content of the page, such as text, images and interactive elements.
+
+
+
+FUNCTION 2 
+
+    <title>Digital Clock - by Natan Cunha</title>
+
+    <link rel="stylesheet" href="style.css"/>
+ 
+   
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+BR - Este é um trecho de código HTML que define o título, a folha de estilo e o favicon de uma página da web.
+
+A tag <title> define o título da página, que é exibido na aba do navegador ou na janela do aplicativo. Neste caso, o título é "Digital Clock - by Natan Cunha", o que indica que a página exibe um relógio digital e foi criada por Natan Cunha.
+
+A tag <link> é usada para vincular a página a uma folha de estilo externa, que é definida no arquivo "style.css". Essa folha de estilo contém as regras de formatação que serão aplicadas ao conteúdo HTML da página. Isso permite que o desenvolvedor separe o conteúdo da página da sua aparência visual, facilitando a manutenção e a atualização da página.
+
+A tag <link> também é usada para vincular a página a um favicon, que é um ícone que é exibido na aba do navegador ou na lista de favoritos. O atributo "type" especifica o tipo de arquivo do favicon, que neste caso é uma imagem PNG, e o atributo "href" especifica o caminho para o arquivo de imagem "favicon.png" dentro da pasta "images" do projeto. O favicon pode ajudar a identificar a página em uma lista de favoritos ou abas abertas no navegador, e também pode ser uma marca visual para a identidade do site.
+
+
+
+FUNCTION 3 
+
+</head>
+<body>
+    <h2>Digital Clock</h2>
+    <div class="clock">
+        
+        <div>
+            <span id="hour">00</span>
+            <span class="text">Hours</span>
+        </div>
+
+        <div>
+            <span id="minutes">00</span>
+            <span class="text">Minutes</span>
+        </div>
+
+        <div>
+            <span id="seconds">00</span>
+            <span class="text">Seconds</span>
+        </div>
+
+        <div>
+            <span id="ampm">PM</span>
+        </div>
+    
+    </div>
+
+      <!-- link of the javascript for this html-->
+    <script src="index.js"></script>
+
+      <!-- Description on drop of website, informacao de rodapé site, informaciones del rodapé del site-->
+      <footer>
+        <div>
+            <p>Digital Clock developed by Natan Cunha's. All right reserveds. 2023 </p>
+          </div>
+      </footer>
+
+</body>
+</html>
+
+
+
+
+BR - Este é um trecho de código HTML que define o conteúdo principal de uma página da web.
+
+A tag <body> contém todo o conteúdo que será exibido na página, incluindo um título (definido anteriormente no <head>), um cabeçalho <h2> com o texto "Digital Clock" e uma div com a classe "clock", que é usada para exibir o relógio digital.
+
+A div "clock" contém quatro divs internas, cada uma com um span que exibe as horas, minutos, segundos e AM/PM do relógio, e um span com um texto descritivo. As horas, minutos e segundos são inicialmente definidos como "00", e o AM/PM é definido como "PM".
+
+Em seguida, o trecho de código inclui um link para o arquivo JavaScript "index.js", que contém o código que implementa o relógio digital.
+
+Por fim, o código inclui um rodapé (<footer>) que contém uma div com um parágrafo informando que o relógio digital foi desenvolvido por Natan Cunha e que todos os direitos são reservados para 2023.
+
+
+US - This is a snippet of HTML code that defines the main content of a web page.
+
+The <body> tag contains all the content that will be displayed on the page, including a title (previously defined in <head>), an <h2> header with the text "Digital Clock" and a div with the "clock" class, which is used to display the digital clock.
+
+The "clock" div contains four inner divs, each with a span that displays the hours, minutes, seconds, and AM/PM of the clock, and a span with descriptive text. Hours, minutes and seconds are initially set to "00", and AM/PM is set to "PM".
+
+The code snippet then includes a link to the JavaScript file "index.js", which contains the code that implements the digital clock.
+
+Finally, the code includes a footer (<footer>) that contains a div with a paragraph stating that the digital clock was developed by Natan Cunha and that all rights are reserved for 2023.
+
+
+
+
+
+
+JAVASCRIPT WINDOW - (Index.js) - report and informations code. - DIGITAL CLOCK by Natan Cunha's
+
+FUNCTION 1
+
+    const hourEl = document.getElementById("hour");
+    const minuteEl = document.getElementById("minutes");
+    const secondEl = document.getElementById("seconds");
+    const ampmEl = document.getElementById("ampm");
+
+
+
+BR - Esta é uma função JavaScript que declara quatro variáveis usando a função getElementById do objeto document. Cada variável é associada a um elemento HTML com um ID específico, que é utilizado para manipular dinamicamente os valores exibidos no elemento.
+
+A primeira variável "hourEl" é associada a um elemento HTML com o ID "hour", provavelmente um elemento que exibe as horas em um relógio digital. A segunda variável "minuteEl" é associada a um elemento HTML com o ID "minutes", que provavelmente exibe os minutos. A terceira variável "secondEl" é associada a um elemento HTML com o ID "seconds", que exibe os segundos.
+
+Por fim, a quarta variável "ampmEl" é associada a um elemento HTML com o ID "ampm", que provavelmente exibe a indicação "am" ou "pm", dependendo se o horário atual é antes ou depois do meio-dia.
+
+Essas variáveis provavelmente são utilizadas em conjunto com outras funções para atualizar dinamicamente os valores exibidos nos elementos HTML, de acordo com a hora atual do sistema.
+
+
+US - This is a JavaScript function that declares four variables using the document object's getElementById function. Each variable is associated with an HTML element with a specific ID, which is used to dynamically manipulate the values displayed in the element.
+
+The first variable "hourEl" is associated with an HTML element with the ID "hour", probably an element that displays the time on a digital clock. The second variable "minuteEl" is associated with an HTML element with the ID "minutes", which presumably displays the minutes. The third variable "secondEl" is associated with an HTML element with the ID "seconds", which displays the seconds.
+
+Finally, the fourth variable "ampmEl" is associated with an HTML element with the ID "ampm", which is likely to display the indication "am" or "pm", depending on whether the current time is before or after noon.
+
+These variables are likely used in conjunction with other functions to dynamically update values displayed in HTML elements based on the current system time.
+    
+
+
+
+FUNCTION 2 
+
+    function updateClock() {
+    let h = new Date().getHours();
+    let m = new Date().getMinutes();
+    let s = new Date().getSeconds();
+    let ampm = "AM";
+
+    if (h > 12) {
+        h = h - 12;
+        ampm = "PM";
+    }
+
+
+
+
+BR - Esta é uma função JavaScript chamada "updateClock" que é utilizada para atualizar a exibição de um relógio digital.
+
+A função utiliza o objeto Date do JavaScript para obter as horas, minutos e segundos atuais do sistema, e armazena esses valores nas variáveis "h", "m" e "s", respectivamente.
+
+Em seguida, a função verifica se o valor de "h" é maior que 12, o que indicaria que é hora de exibir "PM" em vez de "AM". Se "h" for maior que 12, a função subtrai 12 do valor de "h" e atribui o valor "PM" à variável "ampm".
+
+Essas informações são utilizadas posteriormente para atualizar os valores dos elementos HTML associados aos elementos "hourEl", "minuteEl", "secondEl" e "ampmEl" (declarados em outra parte do código), através da manipulação dos seus conteúdos usando a propriedade "textContent" ou "innerHTML".
+
+Essa função é frequentemente utilizada em conjunto com outras funções para atualizar o relógio digital em tempo real, através do uso de um temporizador ou chamada de função assíncrona.
+
+US - This is a JavaScript function called "updateClock" that is used to update the display of a digital clock.
+
+The function uses the JavaScript Date object to get the current hours, minutes and seconds from the system, and stores these values in the variables "h", "m" and "s", respectively.
+
+Then the function checks if the value of "h" is greater than 12, which would indicate that it's time to display "PM" instead of "AM". If "h" is greater than 12, the function subtracts 12 from the value of "h" and assigns the value "PM" to the variable "ampm".
+
+This information is later used to update the values of the HTML elements associated with the "hourEl", "minuteEl", "secondEl" and "ampmEl" elements (declared elsewhere in the code), by manipulating their contents using the "textContent" property " or "innerHTML".
+
+This function is often used in conjunction with other functions to update the digital clock in real time, either through the use of a timer or an asynchronous function call.
+
+
+
+
+FUNCTION 3 
+
+
+ h = h < 10 ? "0" + h : h;
+    m = m < 10 ? "0" + m : m;
+    s = s < 10 ? "0" + s : s;
+
+    hourEl.innerText = h;
+    minuteEl.innerText = m;
+    secondEl.innerText = s;
+    ampmEl.innerText = ampm;
+
+    setTimeout(() => {
+        updateClock();
+    }, 1000);
+    }
+
+    updateClock();
+
+
+
+BR - Este código JavaScript é uma extensão da função "updateClock()" que atualiza os valores de hora, minutos, segundos e AM / PM nos elementos HTML associados aos identificadores "hour", "minutes", "seconds" e "ampm", respectivamente.
+
+A primeira parte do código define três novas variáveis ​​("h", "m" e "s") com os valores obtidos na função "updateClock()". Em seguida, são aplicadas as condições ternárias para adicionar um zero à frente dos valores de hora, minuto e segundo, caso esses valores sejam menores do que 10, garantindo que sejam exibidos com dois dígitos.
+
+Depois disso, a função atualiza o conteúdo dos elementos HTML associados a "hourEl", "minuteEl", "secondEl" e "ampmEl" com os valores das variáveis ​​"h", "m", "s" e "ampm".
+
+Em seguida, a função "setTimeout" é chamada para reexecutar a função "updateClock()" após 1000 milissegundos (1 segundo), permitindo que o relógio digital seja atualizado continuamente. Essa função é executada uma vez no final do código para iniciar a atualização do relógio.
+
+Essas operações de atualização contínua são importantes para manter o relógio digital exibindo a hora atual do sistema em tempo real, sem a necessidade de atualização manual.
+
+
+US - This JavaScript code is an extension of the "updateClock()" function that updates the hour, minute, second and AM/PM values in the HTML elements associated with the "hour", "minutes", "seconds" and "ampm" identifiers, respectively .
+
+The first part of the code defines three new variables ("h", "m" and "s") with the values obtained in the "updateClock()" function. Then the ternary conditions are applied to add a zero in front of the hour, minute, and second values if those values are less than 10, ensuring that they are displayed with two digits.
+
+After that, the function updates the content of the HTML elements associated with "hourEl", "minuteEl", "secondEl" and "ampmEl" with the values of the variables "h", "m", "s" and "ampm" .
+
+Then the "setTimeout" function is called to rerun the "updateClock()" function after 1000 milliseconds (1 second), allowing the digital clock to be continuously updated. This function runs once at the end of the code to start the clock update.
+
+These continuous update operations are important to keep the digital clock displaying the current system time in real time without the need for a manual update.
+
+
+
+
+CDD WINDOW - (style.css) - report and informations code. - DIGITAL CLOCK by Natan Cunha's 2023
+
+
+
+FUNCTION COMPLETE.
+
+
+body{
+margin: 0;
+font-family: sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 100vh;
+justify-content: center;
+background: url("https://images.hdqwalls.com/download/purple-night-ride-4k-qz-1600x900.jpg");
+background-size: cover;
+overflow: hidden;
+}
+
+
+h2{
+text-transform: uppercase;
+letter-spacing: 4px;
+font-size: 14px;
+text-align: center;
+color: aliceblue;
+}
+
+p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 7px;
+    color: aliceblue;
+}
+
+
+.clock{
+    display: flex;
+
+}
+
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+
+.clock span{
+    border-radius: 4%;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    width: 100px;
+    height: 80px;
+    opacity: 0.8;
+    background: slateblue;
+    opacity: 75%;
+    color: aliceblue
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: black;
+    opacity: 0.8;
+    color: aliceblue
+}
+
+.clock #ampm{
+bottom: 0;
+position: absolute;
+width: 60px;
+height: 30px;
+font-size: 20px;
+background: purple;
+
+}
+
+
+
+BR - O código CSS apresentado contém várias abas de função que descrevem o estilo visual da página web. Aqui está uma descrição técnica e profissional de cada aba de função:
+
+body: Define as propriedades CSS para o corpo do documento HTML. Neste caso, define a margem como 0, a fonte para uma fonte sem serifa, a direção do fluxo como coluna, o alinhamento vertical e horizontal como central, a altura como 100% da visualização do usuário, o fundo da imagem com uma URL específica, o tamanho do fundo como cobertura (cover) e o overflow (transbordamento) como escondido (hidden).
+
+h2: Define as propriedades CSS para a tag de título de segundo nível (h2). Define a transformação do texto para todas as letras maiúsculas, o espaçamento entre letras como 4 pixels, o tamanho da fonte como 14 pixels, o alinhamento do texto centralizado e a cor do texto como aliceblue.
+
+p: Define as propriedades CSS para a tag de parágrafo (p) do rodapé. Define a posição como absoluta, o posicionamento da parte inferior (bottom) como 0, a esquerda (left) como 0, a direita (right) como 0, o alinhamento do texto como centralizado, a transformação do texto em letras maiúsculas, o espaçamento entre letras como 4 pixels, o tamanho da fonte como 7 pixels, e a cor do texto como aliceblue.
+
+.clock: Define as propriedades CSS para a classe "clock" que envolve todos os elementos do relógio digital. Define o display como flex, permitindo a organização dos elementos de forma flexível.
+
+.clock div: Define as propriedades CSS para cada um dos elementos div que contêm um valor de hora, minuto e segundo. Define a margem como 5 pixels e a posição como relativa.
+
+.clock span: Define as propriedades CSS para cada um dos elementos span que contêm o valor numérico de hora, minuto e segundo. Define o raio de borda como 4%, o alinhamento do conteúdo como centralizado, o tamanho da fonte como 50 pixels, a sombra do texto com um deslocamento horizontal e vertical de 2 pixels e uma opacidade de 0,3. Define o display como flex, a largura como 100 pixels e a altura como 80 pixels. Define a opacidade do fundo como 0,8 e a cor do fundo como slateblue. Define a opacidade geral do elemento como 75% e a cor do texto como aliceblue.
+
+.clock .text: Define as propriedades CSS para a classe "text" que contém os rótulos "horas", "minutos" e "segundos". Define a altura como 30 pixels, o tamanho da fonte como 10 pixels, a transformação do texto em letras maiúsculas, o espaçamento entre letras como 2 pixels, o fundo como preto com uma opacidade de 0,8 e a cor do texto como aliceblue.
+
+.clock #ampm: Define as propriedades CSS para o elemento span que contém o valor AM ou PM. Define a posição como absoluta, a parte inferior como 0, a largura como 60 pixels, a altura como 30 pixels, o tamanho da fonte como
+
+
+
+US - The presented CSS code contains several function tabs that describe the visual style of the web page. Here is a technical and professional description of each function tab:
+
+body: Defines CSS properties for the body of the HTML document. In this case, set margin to 0, font to a sans serif font, flow direction to column, vertical and horizontal alignment to center, height to 100% of user view, image background to a specific URL , the background size as cover and the overflow as hidden.
+
+h2: Defines CSS properties for the second-level title tag (h2). Sets the text transform to all caps, letter spacing to 4 pixels, font size to 14 pixels, text alignment centered, and text color to aliceblue.
+
+p: Defines the CSS properties for the footer paragraph (p) tag. Sets position to absolute, bottom positioning to 0, left to 0, right to 0, text alignment to center, text capitalization, spacing enter letters as 4 pixels, font size as 7 pixels, and text color as aliceblue.
+
+.clock: Defines the CSS properties for the "clock" class that surrounds all digital clock elements. Sets the display to flex, allowing flexible organization of elements.
+
+.clock div: Defines CSS properties for each of the div elements that contain an hour, minute, and second value. Sets the margin to 5 pixels and the position to relative.
+
+.clock span: Defines the CSS properties for each of the span elements that contain the numerical hour, minute, and second value. Sets the border radius to 4%, the content alignment to centered, the font size to 50 pixels, the text shadow to a horizontal and vertical offset of 2 pixels, and an opacity of 0.3. Set the display to flex, the width to 100 pixels, and the height to 80 pixels. Set the background opacity to 0.8 and the background color to slateblue. Sets the overall opacity of the element to 75% and the text color to aliceblue.
+
+.clock .text: Defines the CSS properties for the "text" class that contains the "hours", "minutes" and "seconds" labels. Set the height to 30 pixels, the font size to 10 pixels, the text to uppercase, the letter spacing to 2 pixels, the background to black with an opacity of 0.8, and the text color to aliceblue.
+
+.clock #ampm: Defines the CSS properties for the span element that contains the AM or PM value. Set position to absolute, bottom to 0, width to 60 pixels, height to 30 pixels, font size to
+
+
+
+
+
+
+
+
+   
